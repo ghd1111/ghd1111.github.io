@@ -15,6 +15,7 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
+
 - Bulleted
 - List
 
@@ -36,6 +37,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+<<<<<<< HEAD
 
 
 
@@ -410,3 +412,6 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 我们只有一个访问损失函数的黑盒，不能直接计算出次梯度（上一章的多臂老虎机问题是一个特例，他的损失函数是线性的）。
 
 ![image-20191125105440695](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125105440695.png?lastModify=1610454132)
+=======
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+>>>>>>> f7832a4d050c93e3756d3868c34da2981888905c
