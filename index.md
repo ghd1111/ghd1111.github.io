@@ -1,46 +1,3 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ghd1111/ghd1111.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ghd1111/ghd1111.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-<<<<<<< HEAD
-
-
-
 
 ##  Online learning and online convex optimization
 
@@ -65,7 +22,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 学习框架：
 
-![image-20191123203548538](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123203548538.png?lastModify=1610454132)
+![image-20191123203548538](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jhk55aj30kd088gm8.jpg)
 
 **学习机的最终目标就是随着运行最小化累计损失**，也就是产生尽可能小的预测差错，努力去从原来的回合中提取信息然后去提高它对当下和未来问题的更好的预测能力。
 
@@ -83,11 +40,11 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 我们不再假设所有答案都是由![img](http://latex.codecogs.com/gif.latex?%7Bh%5E%20*%20%7D%20%5Cin%20H)产生，但是我们要求学习机与来自H最好的固定预测器竞争。这被算法的regret所捕获，regret度量了回顾过去，学习机有多“抱歉”没有遵循一些假设![img](http://latex.codecogs.com/gif.latex?%7Bh%5E%20*%20%7D%20%5Cin%20H)的预测。形式上，算法相对于![img](http://latex.codecogs.com/gif.latex?%7Bh%5E%20*%20%7D)的regret当在一系列T实例上运行时定义为：
 
-![image-20191123204125175](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123204125175.png?lastModify=1610454132)
+![image-20191123204125175](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hqc2rtj30kv037jri.jpg)
 
 算法相对于假设类H的regret是
 
-![image-20191123204140373](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123204140373.png?lastModify=1610454132)
+![image-20191123204140373](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i4nqrnj30id0220sr.jpg)
 
 学习机的目标是相对于H具有尽可能低的regret。我们有时会对“low regret”算法感到满意，我们认为与轮数T呈次线性增长，其意味着当T变为无穷大时，学习机的平均损失与H中最佳假设的平均损失之间的差异趋于零。
 
@@ -113,13 +70,13 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
   - **Consistent 算法**
 
-    - Consistent算法维持一个与![image-20191123204233399](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123204233399.png?lastModify=1610454132)一致的所有假设的集合![img](http://latex.codecogs.com/gif.latex?%7BV_t%7D)。此集合通常称为version space。然后它从中选择任何假设并根据该假设进行预测。
+    - Consistent算法维持一个与![image-20191123204233399](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hrtcb5j308801b745.jpg)一致的所有假设的集合![img](http://latex.codecogs.com/gif.latex?%7BV_t%7D)。此集合通常称为version space。然后它从中选择任何假设并根据该假设进行预测。
 
-    ![image-20191123205424772](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205424772.png?lastModify=1610454132)
+    ![image-20191123205424772](https://tva1.sinaimg.cn/large/008eGmZEly1gml7indhcbj30et08eq3k.jpg)
 
     - Conisstent算法的mistake bound
 
-    ![image-20191123205437826](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205437826.png?lastModify=1610454132)
+    ![image-20191123205437826](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i77xjjj30i902gq3a.jpg)
 
     
 
@@ -127,11 +84,11 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
     - 根据Vt中大部分的假设做预测，而不是根据Vt中的一些假设做出武断的预测。这样的话，就会保证无论何时都会移去verson space 中至少一半的假设。
 
-    ![image-20191123205239540](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205239540.png?lastModify=1610454132)
+    ![image-20191123205239540](https://tva1.sinaimg.cn/large/008eGmZEly1gml7inm558j30f1088aas.jpg)
 
     - Halving算法的mistake bound
 
-    ![image-20191123205256085](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205256085.png?lastModify=1610454132)
+    ![image-20191123205256085](https://tva1.sinaimg.cn/large/008eGmZEly1gml7itw93yj30ie02laaf.jpg)
 
 
 
@@ -144,17 +101,17 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### 二、online convex optimization
 
-![image-20191123205143764](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205143764.png?lastModify=1610454132)
+![image-20191123205143764](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jiyri7j30et062aai.jpg)
 
 凸集的定义：![img](https://images2018.cnblogs.com/blog/1473673/201809/1473673-20180901105532105-1429571368.png)
 
 一个向量u的Regret定义为
 
-![image-20191123205158466](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205158466.png?lastModify=1610454132)
+![image-20191123205158466](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hwriawj30dz029weg.jpg)
 
 算法相对于竞争向量的集合U的Regret被定义为
 
-![image-20191123205214549](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205214549.png?lastModify=1610454132)
+![image-20191123205214549](https://tva1.sinaimg.cn/large/008eGmZEly1gml7ixv32rj308001jt8l.jpg)
 
 
 
@@ -170,7 +127,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 然而，正如我们在下面所示，通过允许学习者随机化他的预测，我们可以将问题转化为在线凸优化框架，因此可以获得针对该问题的low Regret算法。令![img](http://latex.codecogs.com/gif.latex?S%20=%20%5C%7B%20w%20%5Cin%20%7BR%5Ed%7D:w%20%5Cge%200%20%5Cwedge%20%7B%5Cleft%5C%7C%20w%20%5Cright%5C%7C_1%7D%20=%201%5C%7D)是probability simplex，S是一个凸集。
 
-在第 t回合，学习者选择![image-20191123204613430](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123204613430.png?lastModify=1610454132)，并且基于![image-20191123204627255](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123204627255.png?lastModify=1610454132)根据![image-20191123204651015](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123204651015.png?lastModify=1610454132)随机抽取一个专家，学习机支付期望损失：![image-20191123204704902](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123204704902.png?lastModify=1610454132)
+在第 t回合，学习者选择![image-20191123204613430](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hu3uccj302o0163ya.jpg)，并且基于![image-20191123204627255](https://tva1.sinaimg.cn/large/008eGmZEly1gml7irt6qxj301b016a9t.jpg)根据![image-20191123204651015](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hsakv1j305r01bq2r.jpg)随机抽取一个专家，学习机支付期望损失：![image-20191123204704902](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jgogtzj30d002mjre.jpg)
 
 - Convexification by Surrogate Loss Functionsx'z
 
@@ -188,21 +145,21 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 
 接下来的部分中，我们将推导出在线凸优化问题的算法。 特别是，这些算法之一具有如下的regret bound：
 
-![image-20191123205003157](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205003157.png?lastModify=1610454132)
+![image-20191123205003157](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hqywiaj30do02hmx7.jpg)
 
 其中，![img](http://latex.codecogs.com/gif.latex?%5Ceta)是一个参数，在这里设置为1/4，![img](http://latex.codecogs.com/gif.latex?%7BL_t%7D)是函数![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)关于L1范数的Lipschitz参数。在我们的案例中，
 
-![image-20191123205015749](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205015749.png?lastModify=1610454132)
+![image-20191123205015749](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jfqh43j30d9021weh.jpg)
 
 通过![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)的 surrogate property，我们获得：
 
-![image-20191123205029238](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205029238.png?lastModify=1610454132)
+![image-20191123205029238](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i21f8oj3072023wed.jpg)
 
 这种类型的界限，其中错误的数量受到 competing hypothesis的convex surrogate loss的上限，通常被称为relative loss bound。
 
 在realizable的情况下，我们可以进一步简化 relative loss bound如下。 由于bound适用于所有u∈S，因此它特别适用于向量u=(0，...，0,1,0，...，0)，其中1位于对应于 true hypothesis ![img](http://latex.codecogs.com/gif.latex?%7Bh%5E%20*%20%7D%20%5Cin%20H)的位置。
 
-通过我们的构造，对于所有t，![image-20191123205053796](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205053796.png?lastModify=1610454132)，产生![image-20191123205104100](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205104100.png?lastModify=1610454132)
+通过我们的构造，对于所有t，![image-20191123205053796](https://tva1.sinaimg.cn/large/008eGmZEly1gml7issrbpj302h00u3ya.jpg)，产生![image-20191123205104100](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jilambj303y0193yb.jpg)
 
 
 
@@ -212,31 +169,31 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 
 最自然的学习规则是使用任何在过去回合中损失最小的向量。这与Consistent算法的精神相同，它在在线凸优化中通常被称为Follow-The-Leader，**最小化累积损失**。
 
-![image-20191123205630757](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205630757.png?lastModify=1610454132)
+![image-20191123205630757](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jh3qp2j30et03sq33.jpg)
 
-![image-20191123205641235](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205641235.png?lastModify=1610454132)
+![image-20191123205641235](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hpq33cj30ie04ewf0.jpg)
 
 采用数学归纳法证明如下：
 
-将上述不等式的两边同时减去![image-20191123205703109](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205703109.png?lastModify=1610454132)，得到![image-20191123205724580](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205724580.png?lastModify=1610454132)
+将上述不等式的两边同时减去![image-20191123205703109](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iwkw9dj302u015jr6.jpg)，得到![image-20191123205724580](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hurjxqj3069023t8l.jpg)
 
 当T = 1时，由定义代入上述不等式成立。
 
-假设不等式支持T-1，得![image-20191123205806726](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205806726.png?lastModify=1610454132)，对不等式两边同时加上![image-20191123205824900](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205824900.png?lastModify=1610454132)，得
+假设不等式支持T-1，得![image-20191123205806726](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iyxkbaj306j02djra.jpg)，对不等式两边同时加上![image-20191123205824900](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hv3q6bj302n014742.jpg)，得
 
-![image-20191123205838825](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205838825.png?lastModify=1610454132)，该不等式支持所有的u,特别是![image-20191123205857236](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205857236.png?lastModify=1610454132)，得
+![image-20191123205838825](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hrck6dj309k02c748.jpg)，该不等式支持所有的u,特别是![image-20191123205857236](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iol3hbj302q00wwe9.jpg)，得
 
-![image-20191123205928996](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123205928996.png?lastModify=1610454132)，根据定义，![image-20191123210006707](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123210006707.png?lastModify=1610454132),因此得到
+![image-20191123205928996](https://tva1.sinaimg.cn/large/008eGmZEly1gml7isczhqj309n0293yg.jpg)，根据定义，![image-20191123210006707](https://tva1.sinaimg.cn/large/008eGmZEly1gml7htmvdcj302n00uq2p.jpg),因此得到
 
-![image-20191123210017284](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123210017284.png?lastModify=1610454132)
+![image-20191123210017284](https://tva1.sinaimg.cn/large/008eGmZEly1gml7ivm8gqj30bg02cweh.jpg)
 
 - 例子1：Online Quadratic Optimization
 
-![image-20191123210047347](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191123210047347.png?lastModify=1610454132)
+![image-20191123210047347](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jg6yv7j30i302yjrv.jpg)
 
 - failure of FTL
 
-![img](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124132709327.png?lastModify=1610454132)
+![img](https://tva1.sinaimg.cn/large/008eGmZEly1gml7irbxp9j31120f3n0o.jpg)
 
 
 
@@ -246,11 +203,11 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 
 通过在FTL的基础上再加一个正则式来使他更稳定
 
-![image-20191124132821897](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124132821897.png?lastModify=1610454132)
+![image-20191124132821897](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iqiaulj30ey041mxd.jpg)
 
-![image-20191124133029913](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133029913.png?lastModify=1610454132)
+![image-20191124133029913](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i0mipgj30ig04j74u.jpg)
 
-![image-20191124133102971](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133102971.png?lastModify=1610454132)
+![image-20191124133102971](https://tva1.sinaimg.cn/large/008eGmZEly1gml7io4afuj30xi0hlgoa.jpg)
 
 
 
@@ -260,27 +217,27 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 
 带有欧几里得正则式的FTRL算法
 
-![image-20191124133258137](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133258137.png?lastModify=1610454132)
+![image-20191124133258137](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jjl07vj30ew04ewet.jpg)
 
-![image-20191124133336104](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133336104.png?lastModify=1610454132)
+![image-20191124133336104](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hzpluuj30ai02ht8n.jpg)
 
 - 在线梯度下降算法的来源
 
-![image-20191124133414408](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133414408.png?lastModify=1610454132)
+![image-20191124133414408](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i6rnckj30id09nwg1.jpg)
 
-![image-20191124133438667](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133438667.png?lastModify=1610454132)
+![image-20191124133438667](https://tva1.sinaimg.cn/large/008eGmZEly1gml7it9nnhj312f0hmn03.jpg)
 
 - **凸函数**以及**次梯度**的概念
 
   满足一下式子的函数为凸函数，其中，z若不唯一，为此凸函数的次梯度；z若唯一，为此凸函数的梯度。
 
-  ![image-20191124133552633](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133552633.png?lastModify=1610454132)
+  ![image-20191124133552633](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i6a6j4j30ih03w74p.jpg)
 
-  ![image-20191124133758281](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133758281.png?lastModify=1610454132)
+  ![image-20191124133758281](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jkywe0j30xx0aedh2.jpg)
 
-  ![image-20191124133942232](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133942232.png?lastModify=1610454132)
+  ![image-20191124133942232](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i5seiej307r01fq2s.jpg)
 
-![image-20191124133905560](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124133905560.png?lastModify=1610454132)
+![image-20191124133905560](https://tva1.sinaimg.cn/large/008eGmZEly1gml7ji6yxyj30c2027weg.jpg)
 
 
 
@@ -288,32 +245,32 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 
 - 强凸的概念
 
-![image-20191124134053624](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124134053624.png?lastModify=1610454132)
+![image-20191124134053624](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i3011xj30id03x74t.jpg)
 
-![image-20191124134122298](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124134122298.png?lastModify=1610454132)
+![image-20191124134122298](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i2nof7j30sd0b7jsl.jpg)
 
 - 欧几里得正则化
 
-![image-20191124134141768](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124134141768.png?lastModify=1610454132)
+![image-20191124134141768](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i0a3jej30if0390tf.jpg)
 
 - Entropic 正则化
 
-![image-20191124134156808](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124134156808.png?lastModify=1610454132)
+![image-20191124134156808](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iozx8zj30i80aotaq.jpg)
 
 
 
 #### OMD在线镜像下降
 
-![image-20191124134334520](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124134334520.png?lastModify=1610454132)
+![image-20191124134334520](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iwzt3zj30ew0620t8.jpg)
 
 - 算法由来：凸函数为线性函数的FRTL算法
 
-![image-20191124134355320](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124134355320.png?lastModify=1610454132)
+![image-20191124134355320](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iuka1oj30e80dkwf6.jpg)
 
-- 当![image-20191124134546873](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124134546873.png?lastModify=1610454132)时，在线镜像下降为在线梯度下降。在线梯度下降为在线镜像下降的最简形式。
+- 当![image-20191124134546873](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i178xsj306m00uglf.jpg)时，在线镜像下降为在线梯度下降。在线梯度下降为在线镜像下降的最简形式。
 - 悔界
 
-![image-20191124134742267](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124134742267.png?lastModify=1610454132)
+![image-20191124134742267](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jf4yfxj314c0jfn19.jpg)
 
 
 
@@ -323,49 +280,43 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 
 #### Weighted Majority √
 
-![image-20191124135002599](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135002599.png?lastModify=1610454132)
+![image-20191124135002599](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iw49doj30ha0740tk.jpg)
 
 #### SOA标准最优化算法
 
 ##### H shattered tree
 
-![image-20191124135116939](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135116939.png?lastModify=1610454132)
+![image-20191124135116939](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iv5js5j30xa0gqjuu.jpg)
 
 - 概念
 
-![image-20191124135239367](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135239367.png?lastModify=1610454132)
+![image-20191124135239367](https://tva1.sinaimg.cn/large/008eGmZEly1gml7izc4i5j30ia03x752.jpg)
 
-![image-20191124135304424](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135304424.png?lastModify=1610454132)
+![image-20191124135304424](https://tva1.sinaimg.cn/large/008eGmZEly1gml7ixffm3j30op08wq3h.jpg)
 
 ##### Ldim
 
 - 概念
 
-![image-20191124135426743](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135426743.png?lastModify=1610454132)
+![image-20191124135426743](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hvjxpnj30ii02cmxk.jpg)
 
 - 重要性质
 
-![image-20191124135458730](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135458730.png?lastModify=1610454132)
+![image-20191124135458730](https://tva1.sinaimg.cn/large/008eGmZEly1gml7jk81ecj30ru0d4abo.jpg)
 
 ##### SOA算法
 
-![image-20191124135602128](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135602128.png?lastModify=1610454132)
+![image-20191124135602128](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i1mborj30el093759.jpg)
 
 - 重要定理
 
-![image-20191124135745670](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135745670.png?lastModify=1610454132)
+![image-20191124135745670](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hsqul6j30ik01pjri.jpg)
 
-![image-20191124135639296](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191124135639296.png?lastModify=1610454132)
+![image-20191124135639296](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hxflmsj30fw0i5gn7.jpg)
 
 
 
 #### Percepron and Winnnow √√
-
-
-
-
-
-
 
 
 
@@ -377,33 +328,25 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 
 #### 估计梯度的在线镜像下降
 
-这里![image-20191125091846806](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125091846806.png?lastModify=1610454132)不再表示损失函数的次梯度，而是一个随机向量，![image-20191125091905733](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125091905733.png?lastModify=1610454132)。
+这里![image-20191125091846806](https://tva1.sinaimg.cn/large/008eGmZEly1gml7izvyqoj301200w741.jpg)不再表示损失函数的次梯度，而是一个随机向量，![image-20191125091905733](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hyd0mmj305k016wec.jpg)。
 
-![image-20191125091950107](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125091950107.png?lastModify=1610454132)
+![image-20191125091950107](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hyr8unj30g407jaas.jpg)
 
-![image-20191125092213932](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125092213932.png?lastModify=1610454132)
+![image-20191125092213932](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i3havdj30ig0b60uh.jpg)
 
 ​         
 
 #### The multi-armed bandit problem
 
-有d个手臂，在每个在线回合学习机应该选择其中一个手臂，用pt表示，被选择的手臂可以是一个随机变量。然后他收到一个选择这个手臂的代价，![image-20191125094132666](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125094132666.png?lastModify=1610454132) ，向量![image-20191125094225467](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125094225467.png?lastModify=1610454132) 和每一个手臂的代价相联系，但是学习机只能看到他推动的那个手臂的代价。              
+有d个手臂，在每个在线回合学习机应该选择其中一个手臂，用pt表示，被选择的手臂可以是一个随机变量。然后他收到一个选择这个手臂的代价，![image-20191125094132666](https://tva1.sinaimg.cn/large/008eGmZEly1gml7i3x2sfj303a00tmwy.jpg) ，向量![image-20191125094225467](https://tva1.sinaimg.cn/large/008eGmZEly1gml7hz9outj302o00q742.jpg) 和每一个手臂的代价相联系，但是学习机只能看到他推动的那个手臂的代价。              
 
 这个问题就和专家建议预测问题相似。唯一的不同就是学习机不知道他没选择的那些专家的代价。学习机的目标就是产生尽可能的后悔。                                                      
 
 这个问题可以看作是**利用-开发的权衡**(exploit-explore  EE问题）。一方面，我们可能更愿意选择那些依靠以前回合的经验有最低的代价的手臂（利用我们所知道的最好的选择）；另一方面，也许最好应该探索其他的有更小代价的手臂（冒一些风险去收集未知的信息），最好的长期战略可能包括短期的牺牲。例如，一次探索试验可能完全失败，但他警告我们将来不要频繁地采取这种行动。
 
-![image-20191125101313816](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125101313816.png?lastModify=1610454132)
+![image-20191125101313816](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iycqtjj30ep09cmy1.jpg)
 
-![image-20191125101256409](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125101256409.png?lastModify=1610454132)
-
-
-
-- What is MBA?
-
-  假设你在一个赌场里，面对着多台老虎机，每台老虎机都配置有一个未知的概率，即你在一次游戏中获得奖励的可能性有多大。问题是:实现最高长期回报的最佳策略是什么? 
-
-  ![image-20191125141022147](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125141022147.png?lastModify=1610454132)
+![image-20191125101256409](https://tva1.sinaimg.cn/large/008eGmZEly1gml7iqxl8bj30il063gmd.jpg)
 
 
 
@@ -411,7 +354,5 @@ S是一个凸集，![img](http://latex.codecogs.com/gif.latex?%7Bf_t%7D)对于�
 
 我们只有一个访问损失函数的黑盒，不能直接计算出次梯度（上一章的多臂老虎机问题是一个特例，他的损失函数是线性的）。
 
-![image-20191125105440695](file:///Users/gaohedi/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/%E7%9C%8B%E8%BF%87%E7%9A%84%E8%AE%BA%E6%96%87/Online%20Convex%20Optimization.assets/image-20191125105440695.png?lastModify=1610454132)
+![image-20191125105440695](https://tva1.sinaimg.cn/large/008eGmZEly1gml7ipgbg7j30ez08cmy0.jpg)
 =======
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
->>>>>>> f7832a4d050c93e3756d3868c34da2981888905c
